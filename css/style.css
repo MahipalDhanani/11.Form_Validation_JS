@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #23506b;
+}
+
+#main {
+    outline: 5px solid #2c7cad;
+    outline-offset: -25px;
+    border: 10px solid #2c7cad;
+    padding: 40px 60px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    transition: all 1s;
+    box-shadow: rgb(16, 66, 121) 0px 0px 30px 10px;
+}
+
+#title {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    /* margin-bottom: 20px; */
+}
+
+#main form input {
+    padding: 15px;
+    width: 100%;
+    margin: 20px 0px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+#main form input:focus {
+    box-shadow: rgb(49, 138, 235) 0px 0px 30px 10px;
+    outline: none;
+}
+
+#main form button {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    background-color: #3188bd;
+    color: white;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#uname,
+#pass {
+    color: aqua;
+    font-weight: 500;
+}
